@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="fonts/fonts.css" />
+    <link rel="icon" href="./img/icon-seed.png" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <title>Schindler's Seeds</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid container">
+            <a class="navbar-brand" href="./index.html">
+              <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40px" height="40px"
+	 viewBox="0 0 511.504 511.504" style="enable-background:new 0 0 511.504 511.504;" xml:space="preserve">
+			<path d="M298.463,158.09c-8.695-17.468-22.989-31.317-40.969-39.501c-17.98-8.175-37.803-9.839-56.687-4.941
+				C218.728,149.523,259.628,168.142,298.463,158.09z" fill="#fff"/>
+			<path d="M200.226,192.798c-33.476,22.067-47.078,64.905-32.469,102.238C201.233,272.977,214.835,230.131,200.226,192.798z" />
+			<path d="M454.062,8.497c-6.272-7.091-15.821-10.044-24.934-7.714c-0.341,0.085-0.666,0.188-0.99,0.316l-44.092,17.229
+				c-19.004,4.813-38.562,7.253-58.129,7.253H185.587c-19.576,0-39.125-2.44-58.129-7.253L83.374,1.099
+				c-0.324-0.128-0.657-0.23-0.998-0.316c-9.114-2.321-18.662,0.623-24.934,7.714c-6.443,7.287-8.235,17.459-4.676,26.564
+				l23.424,59.494c-21.956,100.898-21.931,209.544,0.094,323.012l-19.362,58.88c-3.396,8.687-1.86,18.551,4.002,25.754
+				c4.873,5.99,11.887,9.293,19.328,9.293c1.417,0,2.859-0.111,4.301-0.367l50.458-8.585c3.396-0.58,6.81-1.084,10.189-1.587
+				c4.147-0.614,8.252-1.229,12.237-1.946c15.095-2.722,29.807-4.096,43.708-4.096h109.218c13.901,0,28.604,1.374,43.699,4.096
+				c3.994,0.717,8.098,1.331,12.237,1.946c3.379,0.504,6.793,1.007,10.189,1.587l50.458,8.585c9.003,1.562,17.826-1.8,23.629-8.926
+				c5.871-7.202,7.407-17.067,4.164-25.31l-19.524-59.341c22.374-117.06,22.409-225.724,0.119-323.046l23.407-59.46
+				C462.297,25.957,460.505,15.785,454.062,8.497z M186.227,100.393c25.643-9.6,53.453-8.653,78.345,2.662
+				c24.875,11.324,43.87,31.684,53.47,57.318c0.785,2.116,0.708,4.463-0.23,6.528c-0.939,2.057-2.654,3.661-4.77,4.454
+				c-11.793,4.42-23.893,6.511-35.806,6.511c-41.489,0-80.614-25.412-96.009-66.492C179.579,106.964,181.815,102.04,186.227,100.393
+				z M163.903,315.715c-0.862,0-1.732-0.137-2.586-0.401c-2.15-0.683-3.951-2.202-4.992-4.207
+				c-25.967-50.133-6.306-112.06,43.827-138.027c2.014-1.041,4.352-1.237,6.511-0.555s3.951,2.202,4.992,4.207
+				c25.967,50.133,6.306,112.051-43.827,138.027C166.609,315.39,165.26,315.715,163.903,315.715z M298.414,401.048
+				c4.719,0,8.533,3.814,8.533,8.533c0,4.719-3.814,8.533-8.533,8.533h-85.333c-4.71,0-8.533-3.814-8.533-8.533
+				c0-4.719,3.823-8.533,8.533-8.533H298.414z M315.481,452.248H196.014c-4.71,0-8.533-3.814-8.533-8.533s3.823-8.533,8.533-8.533
+				h119.467c4.719,0,8.533,3.814,8.533,8.533S320.2,452.248,315.481,452.248z M248.767,298.648c-4.71,0-8.533-3.814-8.533-8.533
+				c0-56.465,45.935-102.4,102.4-102.4c4.71,0,8.533,3.814,8.533,8.533C351.168,252.713,305.233,298.648,248.767,298.648z" fill="#00ac4e"/>
+			<path d="M257.771,281.107c39.876-4.198,71.654-35.977,75.861-75.853C293.756,209.461,261.978,241.23,257.771,281.107z" fill="#daa520"/>
+</svg>
+ </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link"
+                    href=""
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Seeds
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        >Barley</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        >Chia</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Oat</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        >Pumpkin</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Rye</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        >Wheat</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="./delivery.html">Delivery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./payment.html">Payment</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./profile.html">Profile</a>
+                </li>
+              </ul>
+              
+            </div>
+            <div class="menu-right d-flex justify-content-between">
+              <div class="menu-contact">
+                <a href="tel:+4407472578047"
+                  >
+                  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="20px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+                  <g><g transform="translate(0.000000,511.000000) scale(0.100000,-0.100000)"><path d="M1916.4,4915.3c-904.5-385.6-1570.6-937.2-1766.9-1456.1c-44.4-116.9-51.4-182.3-49.1-462.8c2.3-607.7,149.6-1280.8,446.4-2033.4C951.1-60.6,1547.1-983.8,2409.6-1923.4c1537.9-1673.4,3604-2776.6,5377.9-2865.4c331.9-18.7,486.1,11.7,745.6,147.2c432.4,224.4,965.3,937.2,1285.5,1717.9c93.5,224.4,100.5,271.1,51.4,364.6C9830.2-2481.9,7673-948.7,7539.8-902c-95.8,30.4-203.3,21-306.2-30.4c-35.1-18.7-226.7-233.7-427.7-476.8c-409-497.8-465.1-542.2-691.8-544.6c-123.9,0-158.9,11.7-446.4,170.6C4372.8-1075,3809.6-511.7,3101.4,783.1c-158.9,289.8-170.6,322.6-170.6,448.8c2.3,224.4,53.8,289.8,544.6,691.8c238.4,194,451.1,388,476.8,427.7c49.1,86.5,56.1,271.1,14,355.3c-16.4,30.4-378.6,549.2-804,1149.9c-497.8,708.2-794.7,1107.8-836.7,1128.9C2229.6,5034.5,2175.8,5025.2,1916.4,4915.3z" fill="#00ac4e"/></g></g>
+                  </svg>
+                  <span>(+30) 7-47-247-818</span>
+                </a>
+              </div>
+              <div class="menu-user">
+                  <button type="submit" class="profile" data-bs-toggle="modal" data-bs-target="#login">
+                    <img src="/img/icon-sm.png" alt="" srcset="">
+                  </button>
+                
+                <a href="./cart.html">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 576 512"><path d="M528.12 301.319l47.273-208C578.806 78.301 567.391 64 551.99 64H159.208l-9.166-44.81C147.758 8.021 137.93 0 126.529 0H24C10.745 0 0 10.745 0 24v16c0 13.255 10.745 24 24 24h69.883l70.248 343.435C147.325 417.1 136 435.222 136 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-15.674-6.447-29.835-16.824-40h209.647C430.447 426.165 424 440.326 424 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-22.172-12.888-41.332-31.579-50.405l5.517-24.276c3.413-15.018-8.002-29.319-23.403-29.319H218.117l-6.545-32h293.145c11.206 0 20.92-7.754 23.403-18.681z" fill="#00ac4e"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <section class="card-product">
+        <div class="container">
+          <div class="cart-top">
+            <div class="cart-img"></div>
+            <div class="cart-sidebar">
+              <div class="title">Seed1</div>
+              <div class="item-rating">
+                <span class="active">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 280 300" style="enable-background:new 0 0 30 30;">
+                    <path fill="#00ac4e" d="m1,75 129,224 129-224m0,150-129-224-129,224"/>
+                    </svg>
+                </span>
+                <span class="active"><svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 280 300" style="enable-background:new 0 0 30 30;">
+                  <path fill="#00ac4e" d="m1,75 129,224 129-224m0,150-129-224-129,224"/>
+                  </svg></span>
+                <span class="active"><svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 280 300" style="enable-background:new 0 0 30 30;">
+                  <path fill="#00ac4e" d="m1,75 129,224 129-224m0,150-129-224-129,224"/>
+                  </svg></span>
+                <span class="active"><svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 280 300" style="enable-background:new 0 0 30 30;">
+                  <path fill="#00ac4e" d="m1,75 129,224 129-224m0,150-129-224-129,224"/>
+                  </svg></span>
+                <span>
+                  <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18px" height="18px" viewBox="0 0 87.008 87.008" style="enable-background:new 0 0 87.008 87.008;"
+	 xml:space="preserve">
+	<path d="M83.342,19.173l-28.686-0.008L43.193,0L31.734,19.16L6.332,19.153l12.016,22.39L3.666,66.092h27.858l11.225,20.916
+		l12.519-20.916H82.72L68.996,43.146L83.342,19.173z M67.211,46.129l10.107,16.898H57.098L67.211,46.129z M56.488,22.229
+		l21.449,0.007L67.211,40.161L56.488,22.229z M65.426,43.145L53.527,63.027H33.356L21.869,41.625l11.602-19.401l19.445,0.005
+		L65.426,43.145z M35.303,19.16l7.891-13.192l7.891,13.197L35.303,19.16z M20.037,44.689l9.842,18.34H9.068L20.037,44.689z
+		 M11.453,22.218l18.449,0.005L20.179,38.48L11.453,22.218z M51.695,66.092L42.892,80.8l-7.893-14.708H51.695z" fill="#00ac4e"/>
+</svg>
+                </span>
+              </div>
+              <div class="review">Reviews: <span>18</span></div>
+              <div class="info">
+                <span>Price per item</span> <b>80 EUR</b>
+              </div>
+              <div class="info">
+                <span>Weight</span> <b>100 gr</b>
+              </div>
+              <div class="info">
+                <span>Quantity</span> 
+                <div class="input-range">
+                  <div class="input-group">
+                    <input type="button" value="-" class="button-minus" data-field="quantity">
+                    <input step="1" max="" value="1" name="quantity" class="quantity-field">
+                    <input type="button" value="+" class="button-plus" data-field="quantity">
+                  </div>
+                </div>
+              </div>
+              <div class="total-amount">
+                <span>Total amount</span>
+                <b>80 EUR</b>
+              </div>
+              <div class="payment-block">
+                <button class="green-btn">Buy</button>
+                <button class="cart-add">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 576 512"><path d="M528.12 301.319l47.273-208C578.806 78.301 567.391 64 551.99 64H159.208l-9.166-44.81C147.758 8.021 137.93 0 126.529 0H24C10.745 0 0 10.745 0 24v16c0 13.255 10.745 24 24 24h69.883l70.248 343.435C147.325 417.1 136 435.222 136 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-15.674-6.447-29.835-16.824-40h209.647C430.447 426.165 424 440.326 424 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-22.172-12.888-41.332-31.579-50.405l5.517-24.276c3.413-15.018-8.002-29.319-23.403-29.319H218.117l-6.545-32h293.145c11.206 0 20.92-7.754 23.403-18.681z" fill="#fff"/></svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="cart-bottom">
+            <div class="cart-info">
+              <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                  <a class="nav-link active" id="nav-product-tab" data-bs-toggle="tab" data-bs-target="#nav-product" type="button" role="tab" aria-controls="nav-product" aria-selected="true">About product</a>
+                  <a class="nav-link" id="nav-details-tab" data-bs-toggle="tab" data-bs-target="#nav-details" type="button" role="tab" aria-controls="nav-details" aria-selected="false">Details</a>
+                  <a class="nav-link" id="nav-reviews-tab" data-bs-toggle="tab" data-bs-target="#nav-reviews" type="button" role="tab" aria-controls="nav-reviews" aria-selected="false">Reviews</a>
+                </div>
+              </nav>
+              <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-product" role="tabpanel" aria-labelledby="nav-product-tab">
+                  <h2 class="tab">Description</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, ducimus beatae. Sapiente vitae, animi tempora exercitationem alias eius porro deleniti, nihil accusamus laudantium temporibus. Dolorum ea laudantium cum sequi excepturi!</p>
+                  <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus praesentium placeat laborum.</p>
+                </div>
+                <div class="tab-pane fade" id="nav-details" role="tabpanel" aria-labelledby="nav-details-tab">
+                  <ul class="ul-details">
+                    <li><b> Lorem:</b> ipsum dolor.</li>
+                    <li><b> Lorem:</b> ipsum dolor.</li>
+                    <li><b> Lorem:</b> ipsum dolor.</li>
+                    <li><b> Lorem:</b> ipsum dolor.</li>
+                    <li><b> Lorem:</b> ipsum dolor.</li>
+                  </ul>
+                </div>
+                <div class="tab-pane fade" id="nav-reviews" role="tabpanel" aria-labelledby="nav-reviews-tab">
+                  <div class="swiper swiper-reviews">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="rev-header">
+                          <div class="left"><div class="rev-avatar">
+                            <img src="./img/login.png" alt="">
+                          </div></div>
+                          <div class="right"><div class="rev-name">Name Surname</div>
+                          <div class="rev-rating">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="13px" height="13px" viewBox="0 0 280 300" style="enable-background:new 0 0 30 30;">
+                              <path fill="#00ac4e" d="m1,75 129,224 129-224m0,150-129-224-129,224"/>
+                              </svg>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="13px" height="13px" viewBox="0 0 280 300" style="enable-background:new 0 0 30 30;">
+                                <path fill="#00ac4e" d="m1,75 129,224 129-224m0,150-129-224-129,224"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="13px" height="13px" viewBox="0 0 280 300" style="enable-background:new 0 0 30 30;">
+                                  <path fill="#00ac4e" d="m1,75 129,224 129-224m0,150-129-224-129,224"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="13px" height="13px" viewBox="0 0 280 300" style="enable-background:new 0 0 30 30;">
+                                    <path fill="#00ac4e" d="m1,75 129,224 129-224m0,150-129-224-129,224"/>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="13px" height="13px" viewBox="0 0 280 300" style="enable-background:new 0 0 30 30;">
+                                      <path fill="#00ac4e" d="m1,75 129,224 129-224m0,150-129-224-129,224"/>
+                                      </svg>
+                          </div>
+                          <a href="" class="rev-social">google.com</a></div>
+                          
+                        </div>
+                        <div class="rev-footer">
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis dolorum aspernatur vel, itaque praesentium quis?</p>
+                          <a href="">Read more</a>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="rev-header">
+                          <div class="left"><div class="rev-avatar">
+                            <img src="./img/login.png" alt="">
+                          </div></div>
+                          <div class="right"><div class="rev-name">Name Surname</div>
+                          <div class="rev-rating">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="13px" height="13px" viewBox="0 0 280 300" style="enable-background:new 0 0 30 30;">
+                              <path fill="#00ac4e" d="m1,75 129,224 129-224m0,150-129-224-129,224"/>
+                              </svg>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="13px" height="13px" viewBox="0 0 280 300" style="enable-background:new 0 0 30 30;">
+                                <path fill="#00ac4e" d="m1,75 129,224 129-224m0,150-129-224-129,224"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="13px" height="13px" viewBox="0 0 280 300" style="enable-background:new 0 0 30 30;">
+                                  <path fill="#00ac4e" d="m1,75 129,224 129-224m0,150-129-224-129,224"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="13px" height="13px" viewBox="0 0 280 300" style="enable-background:new 0 0 30 30;">
+                                    <path fill="#00ac4e" d="m1,75 129,224 129-224m0,150-129-224-129,224"/>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="13px" height="13px" viewBox="0 0 280 300" style="enable-background:new 0 0 30 30;">
+                                      <path fill="#00ac4e" d="m1,75 129,224 129-224m0,150-129-224-129,224"/>
+                                      </svg>
+                          </div>
+                          <a href="" class="rev-social">google.com</a></div>
+                          
+                        </div>
+                        <div class="rev-footer">
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis dolorum aspernatur vel, itaque praesentium quis?</p>
+                          <a href="">Read more</a>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="rev-header">
+                          <div class="left"><div class="rev-avatar">
+                            <img src="./img/login.png" alt="">
+                          </div></div>
+                          <div class="right"><div class="rev-name">Name Surname</div>
+                          <div class="rev-rating">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="13px" height="13px" viewBox="0 0 280 300" style="enable-background:new 0 0 30 30;">
+                              <path fill="#00ac4e" d="m1,75 129,224 129-224m0,150-129-224-129,224"/>
+                              </svg>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="13px" height="13px" viewBox="0 0 280 300" style="enable-background:new 0 0 30 30;">
+                                <path fill="#00ac4e" d="m1,75 129,224 129-224m0,150-129-224-129,224"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="13px" height="13px" viewBox="0 0 280 300" style="enable-background:new 0 0 30 30;">
+                                  <path fill="#00ac4e" d="m1,75 129,224 129-224m0,150-129-224-129,224"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="13px" height="13px" viewBox="0 0 280 300" style="enable-background:new 0 0 30 30;">
+                                    <path fill="#00ac4e" d="m1,75 129,224 129-224m0,150-129-224-129,224"/>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="13px" height="13px" viewBox="0 0 280 300" style="enable-background:new 0 0 30 30;">
+                                      <path fill="#00ac4e" d="m1,75 129,224 129-224m0,150-129-224-129,224"/>
+                                      </svg>
+                          </div>
+                          <a href="" class="rev-social">google.com</a></div>
+                          
+                        </div>
+                        <div class="rev-footer">
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis dolorum aspernatur vel, itaque praesentium quis?</p>
+                          <a href="">Read more</a>
+                        </div>
+                    </div>
+                      <div class="swiper-slide">
+                        <div class="rev-header">
+                          <div class="left"><div class="rev-avatar">
+                            <img src="./img/login.png" alt="">
+                          </div></div>
+                          <div class="right"><div class="rev-name">Name Surname</div>
+                          <div class="rev-rating">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="13px" height="13px" viewBox="0 0 280 300" style="enable-background:new 0 0 30 30;">
+                              <path fill="#00ac4e" d="m1,75 129,224 129-224m0,150-129-224-129,224"/>
+                              </svg>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="13px" height="13px" viewBox="0 0 280 300" style="enable-background:new 0 0 30 30;">
+                                <path fill="#00ac4e" d="m1,75 129,224 129-224m0,150-129-224-129,224"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="13px" height="13px" viewBox="0 0 280 300" style="enable-background:new 0 0 30 30;">
+                                  <path fill="#00ac4e" d="m1,75 129,224 129-224m0,150-129-224-129,224"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="13px" height="13px" viewBox="0 0 280 300" style="enable-background:new 0 0 30 30;">
+                                    <path fill="#00ac4e" d="m1,75 129,224 129-224m0,150-129-224-129,224"/>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="13px" height="13px" viewBox="0 0 280 300" style="enable-background:new 0 0 30 30;">
+                                      <path fill="#00ac4e" d="m1,75 129,224 129-224m0,150-129-224-129,224"/>
+                                      </svg>
+                          </div>
+                          <a href="" class="rev-social">google.com</a></div>
+                          
+                        </div>
+                        <div class="rev-footer">
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis dolorum aspernatur vel, itaque praesentium quis?</p>
+                          <a href="">Read more</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-button-next"></div>
+                  <div class="swiper-button-prev"></div>
+                </div>
+              </div>
+             
+            </div>
+          </div>
+          <div class="cart-sidebar">
+            <div class="purchase-info">
+              <div class="title">Buy with any cryptocoin ang get:</div>
+              <div class="line">
+                <img src="/img/cash-pay.svg" alt=""><span><b>10 EUR</b> on your account</span>
+              </div>
+              <div class="line">
+                <img src="./img/premium-badge.svg" alt=""><span><b>Premium account for a month</b></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="delivery">
+        <div class="container">
+          <div class="block">
+            <h4 class="title">
+              Free delivery in EU <br />
+              from 100 EUR
+            </h4>
+            <a href="#" class="green-btn">Subscribe</a>
+          </div>
+        </div>
+      </section>
+      
+      <footer>
+        <div class="container">
+          <div class="footer-wrapper">
+            <div class="footer-left">
+              <div class="phones">
+                <div class="phones-item">
+                  <span>Free line inside of EU</span>
+                  <a href="tel:+40166-16-900">(+40) 166-16-90</a>
+                </div>
+                <div class="phones-item">
+                  <span>Make an order</span>
+                  <a href="tel:2310-669-513">2310-669-513</a>
+                </div>
+            </div>
+            <div class="work-time">
+              Monday to Friday: 9:00 - 20:00
+            </div>
+            <div class="email"><a href="mailto: ss@nazi.de">Email: ss@seeds.eu</a>
+            <a href="./support.html" class="support">Support</a></div>
+          </div>
+          <div class="footer-center">
+            <div class="social">
+              <a href="#">Our Facebook</a>
+              <a href="#">Our Instagram</a>
+            </div>
+          </div>
+          <div class="footer-right">
+            <div class="person">
+              <button data-bs-toggle="modal" data-bs-target="#login">
+                Login
+              </button>
+              <button data-bs-toggle="modal" data-bs-target="#register">
+                Register
+              </button>
+              </div>
+          </div>
+        </div>
+        <div class="footer-bottom"><span>Copyright © 1453</span>
+        <a href="#">Terms and conditions</a> 
+        <a href="#">Confidentiality policy</a></div>
+      </footer>
+    </div>
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      //-- increment-decrement input range --
+  function incrementValue(e) {
+    e.preventDefault();
+    var fieldName = $(e.target).data('field');
+    var parent = $(e.target).closest('div');
+    var currentVal = parseInt(parent.find('input[name=' + fieldName + ']').val(), 10);
+
+    if (!isNaN(currentVal)) {
+      parent.find('input[name=' + fieldName + ']').val(currentVal + 1);
+    } else {
+      parent.find('input[name=' + fieldName + ']').val(0);
+    }
+}
+
+function decrementValue(e) {
+    e.preventDefault();
+    var fieldName = $(e.target).data('field');
+    var parent = $(e.target).closest('div');
+    var currentVal = parseInt(parent.find('input[name=' + fieldName + ']').val(), 10);
+
+    if (!isNaN(currentVal) && currentVal > 0) {
+      parent.find('input[name=' + fieldName + ']').val(currentVal - 1);
+    } else {
+      parent.find('input[name=' + fieldName + ']').val(0);
+    }
+}
+
+$('.input-group').on('click', '.button-plus', function(e) {
+  incrementValue(e);
+});
+
+$('.input-group').on('click', '.button-minus', function(e) {
+  decrementValue(e);
+});
+//-- / increment-decrement input range --
+    </script>
+    <script>
+      //-- swiper cart page for reviews  --
+      new Swiper(".swiper-reviews", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        slidesPerGroup: 1,
+        breakpoints: {
+    // when window width is >= 320px
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 20
+    }},
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+      //-- / swiper cart page for reviews  --
+      
+    </script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous";
+    ></script>
+  </body>
+</html>
+
+<!-- Modal Login -->
+<div class="modal fade" id="login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Login</h5>
+      </div>
+      <div class="modal-body">
+        <div class="form">
+          <form action="post">
+            <div class="inpb">
+              <input class="email-modal" name="" type="text" placeholder="Email">
+            </div>
+            <div class="inpb">
+              <input class="password-modal" name="" type="password" placeholder="Password">
+            </div>
+            <div class="forgot-pass">Gorgot password?</div>
+            <button class="green-btn">Login</button>
+          </form>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <div class="not-reg">Not registered?</div>
+        <div class="join" data-bs-toggle="modal" data-bs-dismiss="modal" data-bs-target="#register">
+          Join now
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Register -->
+<div class="modal fade" id="register" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Register</h5>
+      </div>
+      <div class="modal-body">
+        <div class="form">
+          <form action="post">
+            <div class="inpb">
+              <input class="email-modal" name="" type="text" placeholder="Email">
+            </div>
+            <div class="inpb">
+              <input class="password-modal" name="" type="password" placeholder="Password">
+            </div>
+            <div class="inpb">
+              <input class="password-modal" name="" type="password" placeholder="Confirm password">
+            </div>
+            <div class="radio-block">
+              <div class="line">
+                <input type="checkbox" id="r-news">
+                <label for="r-news">I want to receive newsletters</label>
+              </div>
+              <div class="line">
+                <input type="checkbox" checked id="r-pol">
+                <label for="r-pol">I accept the <a href="">terms of use</a> and <a href="">privacy policy</a></label>
+              </div>
+            </div>
+            <button class="green-btn">Register</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
