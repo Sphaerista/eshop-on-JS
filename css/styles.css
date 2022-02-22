@@ -368,7 +368,7 @@ footer .container .footer-bottom a {
   box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.03);
   padding: 30px 0 30px 40px;
   background-color: #f0efef;
-  background-image: url(/img/van-png-delivery-sm.png);
+  background-image: url(https://sphaerista.github.io/eshop-on-html/img/van-png-delivery-sm.png);
   background-position: center right;
   background-repeat: no-repeat;
 }
@@ -765,7 +765,7 @@ footer .container .footer-bottom a {
 }
 .modal-dialog .modal-content .btn-close {
   align-self: end;
-  background: transparent url(/img/button-modal.svg) center / 1em auto no-repeat;
+  background: transparent url(https://sphaerista.github.io/eshop-on-html/img/button-modal.svg) center / 1em auto no-repeat;
 }
 .modal-dialog .modal-content .modal-header {
   justify-content: center;
@@ -910,7 +910,7 @@ footer .container .footer-bottom a {
     border: none;
   }
   header .navbar-light .navbar-toggler-icon {
-    background-image: url(/img/line-menu.svg);
+    background-image: url(https://sphaerista.github.io/eshop-on-html/img/line-menu.svg);
   }
   .home-banner {
     margin-top: 75px;
@@ -1077,7 +1077,7 @@ footer .container .footer-bottom a {
     border: none;
   }
   header .navbar-light .navbar-toggler-icon {
-    background-image: url(/img/line-menu.svg);
+    background-image: url(https://sphaerista.github.io/eshop-on-html/img/line-menu.svg);
   }
   footer .footer-wrapper {
     flex-direction: column;
